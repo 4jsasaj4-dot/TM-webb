@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>TM web</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- INTRO -->
+
+  <div id="intro">
+
+    <div class="light"></div>
+
+    <img src="logo.png"
+      id="intro-logo">
+
+  </div>
+
+  <!-- BACKGROUND -->
+
+  <div class="bg"></div>
+
+  <!-- NAVBAR -->
+
+  <nav>
+
+    <div class="logo-box">
+
+      <img src="logo.png"
+        class="logo">
+
+      <h2>Taha</h2>
+
+    </div>
+
+    <div class="links">
+
+      <a href="#">Home</a>
+
+      <a href="#projects">
+        Projects
+      </a>
+
+      <a href="#books">
+        Books
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <img src="TM.jpg"
+      class="profile">
+
+    <h1>
+      Taha Mahrous
+    </h1>
+
+    
+
+    <button onclick="scrollProjects()">
+
+      Explore Projects
+
+    </button>
+    <div class="about-box">
+
+        <p>
+      
+          I am a Mechanical Power Engineer specialized in MEP systems.
+          I have experience in designing HVAC, Firefighting,
+          Plumbing and Medical Gas Systems including load calculations,
+          pipe sizing and pump room design.
+      
+          Skilled in using Revit, AutoCAD, HAP and Fire Elite,
+          and experienced in preparing and reviewing shop,
+          coordination and as-built drawings while ensuring
+          compliance with project specifications and industry standards.
+      
+          I aim to join a professional organization to enhance
+          my technical skills and grow in the engineering field.
+      
+        </p>
+      
+        <div class="about-skills">
+      
+          <span>HVAC</span>
+      
+          <span>Firefighting</span>
+      
+          <span>Plumbing</span>
+      
+          <span>Medical Gases</span>
+      
+          <span>Revit</span>
+      
+          <span>AutoCAD</span>
+      
+          <span>HAP</span>
+      
+          <span>Fire Elite</span>
+      
+        </div>
+      
+      </div>
+  </section>
+
+  
+ 
+
+  <!-- PROJECTS -->
+  <section class="projects"
+id="projects">
+
+<h2 class="section-title">
+    Projects
+  </h2>
+
+  <div class="project-card"
+
+  onclick="openModal(
+  'HVAC Design Project',
+  'project photo.jpeg',
+  'I’m proud to share my final project from the preparatory stage of the modeling training, where I focused on HVAC system design and modeling for the Cultural Center project. This project helped me strengthen my skills in creating precise, detailed models using Revit, with a strong focus on clarity, accuracy, and coordination across all systems. Project Scope Included: Supply, Return, Fresh Air, and Exhaust air systems FCU selection with airflow, capacity, and performance calculations Air outlets and duct sizing/layout AC drainage system modeling Detailed HVAC layout and MEP coordination This project reflects the practical application of HVAC design principles, real project standards, and the importance of delivering a well-coordinated mechanical model.',
+  '',
+  ''
+  )">
+
+    <img src="project photo.jpeg">
+
+    <div class="project-info">
+
+      <h3>
+        HVAC Design Project
+      </h3>
+
+      <p>
+        Cultural Center HVAC Design using Revit.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- BOOKS -->
+  <section class="books"
+  id="books">
+  
+    <h2 class="section-title">
+      Books
+    </h2>
+  
+    <div class="books-container">
+  
+      
+
+  <!-- BOOK -->
+
+  <a href="books/03- Medical Standards.pdf"
+    target="_blank"
+    class="book-card">
+
+    <h3>
+      Medical Standars
+    </h3>
+
+    
+
+  </a>
+
+  <!-- BOOK -->
+
+  <a href="books/01- Introduction and HVAC Equipment.pdf"
+    target="_blank"
+    class="book-card">
+
+    <h3>
+      Introduction and HVAC Equipment
+    </h3>
+
+    
+
+  </a>
+
+  <!-- BOOK -->
+
+  <a href="books/06- Air Terminal Selection.pdf"
+    target="_blank"
+    class="book-card">
+
+    <h3>
+        Air Terminal
+    </h3>
+
+    
+  </a>
+ <!-- BOOK -->
+
+ <a href="books/AutoCAD Book.pdf"
+ target="_blank"
+ class="book-card">
+
+ <h3>
+    AutoCAD
+ </h3>
+
+ 
+</a>
+
+ <!-- BOOK -->
+
+ <a href="books/AutoFLUID-10 Book.pdf"
+ target="_blank"
+ class="book-card">
+
+ <h3>
+    AutoFLUID
+ </h3>
+
+ 
+</a>
+
+
+ <!-- BOOK -->
+
+ <a href="books/Duct Design_.pdf"
+ target="_blank"
+ class="book-card">
+
+ <h3>
+    Duct Design
+ </h3>
+
+ 
+</a>
+ <!-- BOOK -->
+
+ <a href="books/.pdf"
+ target="_blank"
+ class="book-card">
+
+ <h3>
+   Duct Fanrication
+ </h3>
+
+ 
+</a>
+ <!-- BOOK -->
+
+ <a href="books/General Notes Book.pdf"
+ target="_blank"
+ class="book-card">
+
+ <h3>
+    General Notes 
+ </h3>
+
+ 
+</a>
+ <!-- BOOK -->
+
+ <a href="books/HVAC-04-2.pdf"
+ target="_blank"
+ class="book-card">
+
+ <h3>
+    HVAC-04
+ </h3>
+
+ 
+</a>
+<!-- BOOK -->
+
+<a href="books/pipe Design.pdf"
+target="_blank"
+class="book-card">
+
+<h3>
+    pipe Design
+</h3>
+
+
+</a>
+</div>
+
+</section>
+
+ <!-- CONTACT -->
+
+<section class="contact"
+id="contact">
+
+<h2>Contact</h2>
+
+<div class="socials">
+
+  <!-- LINKTREE -->
+
+  <a href="https://linktr.ee/tahamahrous"
+    target="_blank">
+
+    <i class="fas fa-link"></i>
+
+  </a>
+
+  <!-- LINKEDIN -->
+
+  <a href="https://www.linkedin.com/in/tahamahrous-mujahid"
+    target="_blank">
+
+    <i class="fab fa-linkedin"></i>
+
+  </a>
+
+  <!-- PHONE -->
+
+  <a href="tel:+201098395663">
+
+    <i class="fas fa-phone"></i>
+
+  </a>
+
+  <!-- EMAIL -->
+
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tahamahrous.egy@gmail.com"
+target="_blank">
+
+  <i class="fas fa-envelope"></i>
+
+</a>
+
+</div>
+
+</section>
+<div class="modal"
+id="modal">
+
+  <div class="modal-content">
+
+    <span class="close"
+    onclick="closeModal()">
+
+      &times;
+
+    </span>
+
+    <img id="modal-image">
+
+    <h2 id="modal-title"></h2>
+
+    <p id="modal-desc"></p>
+
+   
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
